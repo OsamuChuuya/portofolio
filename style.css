@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #1F242D;
+      font-family: "Poppins", sans-serif;
+
+}
+
+header{
+    max-width: 1400px;
+
+}
+.header-nav{
+    max-width: 100%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 129px;
+}
+.nav-icon{
+    display: none;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.chel{
+    max-width: 504px;
+    height: 611.67px;
+    margin-top: 103px;
+}
+.text{
+    color: white;
+}
+.text h2{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.text h1{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+
+}
+.text p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.logos{
+    transform: translate(0px, 20px);
+    display: flex;
+    gap: 17px;
+}
+.btn{
+    margin-top: 30px;
+    align-content: center;
+    background-color: #00EEFF;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    color: black;
+    width: 176.59px;
+    height: 45px;
+    padding: 11px 28px;
+    border-radius: 40px;
+
+}
+.section{
+    max-width: 1440px;
+    height: 749px;
+
+}
+.cvet{
+    color: #00EEFF;
+}
+.section h2{
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    height: 63px;
+    text-align: center;
+
+}
+.cartochki{
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.cards{
+    max-width: 380.27px;
+    height: 369px;
+    border-radius: 20px;
+    background-color: #323946;
+    color: white;
+
+}
+.cards h3{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    background-color: #323946;
+    
+
+}
+.cards p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    background-color: #323946;
+    margin: 35px 40px 0px;
+
+
+}
+.cards button{
+    margin-left: 110px;
+    margin-top: 14px;
+
+}
+.cards img{
+    margin: 34px 155px 0px;
+    background-color: #323946;
+
+}
+.nd{
+    background-color: #323946;
+}
+.nd h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    height: 63px;
+    background-color: #323946;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+}
+.div img{
+    width: 376.94px;
+    height: 251.67px;
+    border-radius: 20px;
+
+}
+.th h2{
+margin-top: 100px;
+}
+.input{
+    max-width: 700px;
+    height: 502px;
+    margin: 30px 240px;
+
+}
+.in{
+    width: 343px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #323946;
+
+}
+.put{
+    width: 100%;
+    height: 280px;
+    border-radius: 7.04px;
+    margin-top: 14px;
+    background-color: #323946;
+}
+.input button{
+    margin: 32px 256px;
+}
+.footer{
+    max-width: 1440px;
+    background-color: #323946;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h4{
+    background-color: #323946;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.footer button{
+    width: 40px;
+    height: 40px;
+    padding: 7px 8px 8px 8px;
+    border-radius: 8px;
+}
+.btn img{
+    max-width: 100%;
+    background-color: #00EEFF;
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        padding: 0 92px;
+    }
+    .header-content{
+        gap: 15px;
+    }
+    .text h2{
+        font-family: Poppins;
+        font-size: 28.2px;
+        font-weight: 700;
+        line-height: 42.3px;
+
+
+    }
+    .text h1{
+        font-family: Poppins;
+        font-size: 49.3px;
+        font-weight: 700;
+        line-height: 64.06px;
+
+
+    }
+    .text p{
+        font-family: Poppins;
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+
+
+    }
+    .chel{
+        width: 358.39px;
+        height: 434.95px;
+        margin-top: 63px;
+    }
+    .cartochki{
+        gap:17px;
+    }
+    .cards{
+        width: 268.17px;
+        height: 337.95px;
+        border-radius: 17.6px;
+    }
+    .cards img{
+        width: 51.37px;
+        height: 47.28px;
+        margin: 26px 103px 0;
+    }
+    .cards h3{
+        font-family: Poppins;
+        font-size: 22.9px;
+        font-weight: 700;
+        line-height: 34.35px;
+        text-align: center;
+        width: 217.92px;
+        height: 32px;
+        margin-left: 25px;
+
+
+    }
+    .cards p{
+    font-family: Poppins;
+    font-size: 14.1px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: center;
+    width: 170.6px;
+    height: 81.4px;
+    margin-top: 0;
+    
+    }
+    .cards button{
+    margin-top: 28px;
+    margin-left: 67px;
+    width: 133px;
+    height: 38px;
+    border-radius: 35.2px;
+    }
+    .div{
+        gap: 22px;
+    }
+    .div img{
+        width: 265.22px;
+        height: 177.08px;
+    
+
+    }
+    .input{
+        width: 616px;
+        height: 428.25px;
+        margin: 26px 204px;
+    }
+    .in{
+        width: 301.83px;
+        height: 47.38px;
+        border-radius: 7.04px;
+    }
+    .put{
+        width: 616px;
+        height: 236.38px;
+        border-radius: 7.04px;  
+    }
+    .input button{
+        margin: 27px 226px;
+        width: 163.75px;
+        height: 38.59px;
+        padding: 8.79px 24.25px 9.8px 24.62px;
+        border-radius: 35.2px ;
+        
+    }
+    .footer h4{
+        font-family: Poppins;
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+    }
+    .footer button{
+        width: 35.17px;
+        height: 35.19px;
+        padding: 7.03px 7.03px 7.16px 7.03px;
+        border-radius: 7.04px;
+        
+    }
+
+
+
+}
+@media (max-width:992px) {
+    .container{
+        padding: 0 18px;
+    }
+
+    .header-nav ul{
+    display: none;
+    }
+    .nav-icon{
+        display: initial;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+    .chel{
+        width: 537.59px;
+        height: 652.44px;
+
+    }
+    .text h2{
+        font-family: Poppins;
+        font-size: 22.9px;
+        font-weight: 700;
+        line-height: 34.35px;
+    }
+    .text h1{
+        font-family: Poppins;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 57.2px;
+
+    }
+    .text p{
+        font-family: Poppins;
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+
+    }
+    .section{
+    width: 768px;
+    height: 911px;
+
+    }
+    .cartochki{
+        flex-wrap: wrap;
+    }
+    .cards{
+    width: 352.17px;
+    height: 316.95px;
+    border-radius: 17.6px;
+    }
+    .cards img{
+    width: 51.37px;
+    height: 47.28px;
+    margin: 33px 150px 0px;
+    }
+    .cards h3{
+    font-family: Poppins;
+    font-size: 22.9px;
+    font-weight: 700;
+    line-height: 34.35px;
+    text-align: center;
+    margin-left: 64px;
+
+    }
+    .cards p{
+    font-family: Poppins;
+    font-size: 14.1px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: center;
+    width: 259.6px;
+    height: 81.4px;
+
+    }
+    .td{
+width: 721.94px;
+height: 274.95px;
+border-radius: 17.6px;
+
+
+    }
+    .cards button{
+     width: 134px;
+    height: 38px;
+    border-radius: 35.2px;
+    margin: 40px 108px;
+    }
+    .div img{
+    width: 349.97px;
+    height: 233.67px;
+    border-radius: 17.6px ;
+
+    }
+    .input{
+        margin: 32px 76px;
+    }
+}
+@media (max-width:575px) {
+    .container{
+        padding: 0 12px;
+    }
+    .text h2{
+        font-family: Poppins;
+        font-size: 20.8px;
+        font-weight: 700;
+        line-height: 31.2px;
+    }
+    .text h1{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+
+    }
+    .text p{
+        font-family: Poppins;
+        font-size: 12.8px;
+        font-weight: 400;
+        line-height: 19.2px;
+    }
+    .chel{
+        width: 273px;
+        height: 331.31px;
+  
+    }
+    .section{
+    width: 390px;
+    height: 1042px;
+
+    }
+    .cartochki{
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    }
+    .cards{
+    width: 366.63px;
+    height: 265px;
+    border-radius: 16px;
+
+    }
+    .cards img{
+    width: 56px;
+    height: 57px;
+
+    }
+    .cards h3{
+    font-family: Poppins;
+    font-size: 20.8px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+    margin-left: 84px 10px;
+
+    }
+    .cards p{
+    width: 305.01px;
+    height: 74px;
+    font-family: Poppins;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    /* margin: ; */
+    }
+    .cards button{
+    /* width: 122px; */
+    height: 33px;
+    border-radius: 32px;
+    margin: 25px 118px;
+
+    }
+    .nd{
+    width: 390px;
+    height: 1783.78px;
+    }
+    .div{
+        gap: 20px;
+    }
+    .div img{
+    width: 366.63px;
+    height: 244.8px;
+    border-radius: 16px;
+    }
+    .th{
+        width: 390px;
+        height: 780.94px;
+    }
+    .input{
+        width: 366.63px;
+        height: 481.94px;
+        flex-direction: column;
+        margin: 24px 0px;
+    }
+    .in{
+        width: 366.63px;
+        height: 42px;
+        padding: 12px;
+        border-radius: 6.4px;
+
+    }
+    .put{
+        width: 366.63px;
+        height: 204px;
+        border-radius: 6.4px;
+    }
+    .input button{
+        width: 148.86px;
+        height: 34px;
+        padding: 8px 22.03px 9px 22.39px;
+        border-radius: 32px ;
+        margin: 25px 108px;
+    }
+    .footer h4{
+        font-family: Poppins;
+        font-size: 12.8px;
+        font-weight: 400;
+        line-height: 19.2px; 
+    }
+    .footer button{
+        width: 31.97px;
+        height: 31.98px;
+        padding: 6.39px 6.39px 6.59px 6.39px;
+        border-radius: 6.4px;
+ 
+    }
+}
